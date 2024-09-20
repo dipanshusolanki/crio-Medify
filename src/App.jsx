@@ -1,7 +1,11 @@
+import HeaderTile from "./components/HeaderTile/HeaderTile";
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
     <>
-      <h1 className="">Medify</h1>
+      <HeaderTile />
+      <Navbar />
     </>
   );
 }
