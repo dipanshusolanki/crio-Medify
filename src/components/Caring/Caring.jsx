@@ -17,7 +17,7 @@ const Caring = () => {
                         </p>
                     </div>
                     <div className="flex flex-col items-start gap-[38px] max-md:w-full max-md:justify-center">
-                        <p className="font-Poppins font-[500] text-[17px] leading-[29px] text-[#77829D] w-[609px] max-md:w-fit max-md:px-[10px] text-center">
+                        <p className="font-Poppins font-[500] text-[17px] leading-[29px] text-[#77829D] w-[609px] max-md:w-fit max-md:px-[10px] max-md:text-center">
                             Our goal is to deliver quality of care in a courteous,
                             respectful, and compassionate manner.
                             We hope you will allow us to care for you and strive
