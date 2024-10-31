@@ -61,7 +61,7 @@ const Hero = ({data}) => {
                         </button>
                     </div>
                     <div className="max-md:hidden relative">
-                        <img src="/public/hero.png" alt="hero" width={585} height={481}/>
+                        <img src="/hero.png" alt="hero" width={585} height={481}/>
                         <div className="absolute top-[37%] -right-[4%]"><img src="/titik.svg" alt=""/></div>
                     </div>
                 </div>
