@@ -40,7 +40,7 @@ const BookingCard = ({booking}) => {
                                 <div className="max-md:w-[130px] max-md:h-[30px] w-[84px] h-[32px] rounded-[3px] border border-[#2AA7FF] flex justify-center items-center font-Poppins font-[400] text-[14px] leading-[20px] text-[#2AA7FF]">
                                     {booking.time}
                                 </div>
-                                <div className="max-md:w-[130px] max-md:h-[30px] max-w-[158px] h-[32px] px-[5px] rounded-[3px] border border-[#00A500] flex justify-center items-center font-Poppins font-[700] text-[14px] max-md:font-[600] leading-[20px] text-[#007100]">
+                                <div className="max-md:w-[130px] max-md:min-h-[30px] max-md:h-fit max-md:text-center max-w-[158px] h-[32px] px-[5px] rounded-[3px] border border-[#00A500] flex justify-center items-center font-Poppins font-[700] text-[14px] max-md:font-[600] leading-[20px] text-[#007100]">
                                     {booking.date}
                                 </div>
                             </div>

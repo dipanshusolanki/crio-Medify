@@ -19,11 +19,15 @@ const router = createBrowserRouter([
             },
             {
                 path:"/hospitals",
-                element: <Hospital />
+                element: <Hospital />,
+                hasErrorBoundary: true,
+                errorElement: <ErrorBoundary />
             },
             {
                 path:"/bookings",
-                element: <Booking />
+                element: <Booking />,
+                hasErrorBoundary: true,
+                errorElement: <ErrorBoundary />
             },
             {
                 path:"/doctors",
